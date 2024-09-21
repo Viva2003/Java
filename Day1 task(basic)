@@ -1,0 +1,112 @@
+
+public class Main {
+
+// Employee Details
+    int empId;
+   String empName;
+  String empDob;
+    String empPhone;
+   String empEmail;
+   String empAddress;
+
+   // Green Technology Details
+    String greensOmr;
+    String greenAdayar;
+    String greenTambram;
+    String greenVelachery;
+    String greenAnnaNagar;
+
+
+    public Main(int empId, String empName, String empDob, String empPhone, String empEmail, String empAddress, String greensOmr, String greenAdayar, String greenTambram, String greenVelachery, String greenAnnaNagar ) {
+        this.empId = empId;
+        this.empName = empName;
+        this.empDob = empDob;
+        this.empPhone = empPhone;
+        this.empEmail = empEmail;
+        this.empAddress = empAddress;
+
+        //Green Technology
+
+
+        this.greensOmr = greensOmr;
+        this.greenAdayar = greenAdayar;
+        this.greenTambram = greenTambram;
+        this.greenVelachery = greenVelachery;
+        this.greenAnnaNagar = greenAnnaNagar;
+
+    }
+
+    // Methods
+    public void empId() {
+        System.out.println("Emp ID: " + empId);
+    }
+
+    public void empName() {
+        System.out.println("Emp Name: " + empName);
+    }
+
+    public void empDob() {
+        System.out.println("Emp DOB: " + empDob);
+    }
+
+    public void empPhone() {
+        System.out.println("Emp Phone: " + empPhone);
+    }
+
+    public void empEmail() {
+        System.out.println("Emp Email: " + empEmail);
+    }
+
+    public void empAddress() {
+        System.out.println("Emp Address: " + empAddress);
+    }
+
+    // Green Technology
+
+
+    public void greensOmr() {
+        System.out.println("greensOmr: " + greensOmr);
+    }
+
+    public void greenAdayar() {
+        System.out.println("greenAdayar: " + greenAdayar);
+    }
+
+    public void greenTambram() {
+        System.out.println("greenTambram: " + greenTambram);
+    }
+
+    public void greenVelachery() {
+        System.out.println("greenVelachery: " + greenVelachery);
+    }
+
+    public void greenAnnaNagar() {
+        System.out.println("greenAnnaNagar: " + greenAnnaNagar);
+    }
+
+
+
+    public static void main(String[] args) {
+
+        Main emp1 = new Main(47, "Sandip", "15-07-2003", "9593941801", "sm9593941801@gmail.com", "Sri Shanmugha College" ,"ab", "cd" ,"ef" , "gh" ,"ij" );
+
+
+
+        System.out.println("Employee Details:");
+        emp1.empId();
+        emp1.empName();
+        emp1.empDob();
+        emp1.empPhone();
+        emp1.empEmail();
+        emp1.empAddress();
+
+        System.out.println("GreenTech Details:");
+        emp1.greensOmr();
+        emp1.greenAdayar();
+        emp1.greenTambram();
+        emp1.greenVelachery();
+        emp1.greenAnnaNagar();
+
+
+    }
+}
