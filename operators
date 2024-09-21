@@ -1,0 +1,45 @@
+package operator;
+
+public class DifferentOperator {
+    int a=10;
+    int b=20;
+    boolean c=true;
+    boolean d=false;
+    public void arithmetic() {
+        System.out.println("Sum of a and b "+(a+b));
+        System.out.println("Difference of a and b "+(b-a));
+        System.out.println("Multiply of a and b "+(a*b));
+        System.out.println("Division of b and a "+(b/a));
+        System.out.println("Modulus of b and a "+(b%a));
+    }
+    public void unary(){
+        System.out.println("Increment of a "+(++a));
+        System.out.println("Decrement of b "+(--b));
+    }
+    public void relation(){
+        System.out.println("Is a and b equal ? "+(a==b));
+        System.out.println("Is a and b not equal ? "+(a!=b));
+        System.out.println("Is a less than or equal to b ?"+(a<=b));
+        System.out.println("Is a greater than or equal to b ?"+(a>=b));
+
+    }
+    public void logical(){
+        System.out.println("AND LOGIC : "+(c&&d));
+        System.out.println("OR LOGIC : "+(c||d));
+        System.out.println("!C : "+(!c));
+    }
+    public static void main(String[] args){
+        System.out.println("Arithmetic operators\n");
+        DifferentOperator obj=new DifferentOperator();
+        obj.arithmetic();
+        System.out.println("Unary operator\n");
+        obj.unary();
+        System.out.println("Relational Operator\n");
+        obj.relation();
+        System.out.println("Logical operator\n");
+        obj.logical();
+
+
+    }
+}
+
