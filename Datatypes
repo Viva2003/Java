@@ -1,0 +1,30 @@
+package datatypepg;
+
+public class DataType {
+    // Initialize a variables
+    byte a=10;
+    short b=20;
+    int c=897;
+    long d=987654321;
+    float e=89.56f;
+    double f=8767.678;
+    char s='v';
+    String z="Sandip is a intelligent boy";
+    String x=new String("Viji is clever");
+    public void viji() {
+        System.out.println("Byte data:" + a);
+        System.out.println("Short data:"+b);
+        System.out.println("Int data:"+c);
+        System.out.println("Long data:"+d);
+        System.out.println("Float data:"+e);
+        System.out.println("Double data:"+f);
+        System.out.println("Char var data:"+s);
+        System.out.println("String value 1:"+z);
+        System.out.println("String value 2:"+x);
+    }
+    public static void main(String[] args){
+        DataType obj=new DataType();
+        obj.viji();
+    }
+
+}
